@@ -1,0 +1,332 @@
+*{  width: 95%;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Georgia, serif;
+}
+/* Header part style */
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.nav ul{
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    gap: 15px;
+}
+.nav li{
+    list-style: none;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner h2{ 
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    width: 150px;
+    margin: 30px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFF;
+    background-color: #d67a02;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0;
+}
+.banner-img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+
+}
+.banner-img > img{
+    width: 100%;
+    height: 100%;
+}
+/*------------------------
+    Main section style 
+---------------------------*/
+.main-section{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+    width: 60%;
+}
+.img-container > div{
+    height: 300px;
+    width: 300px;
+}
+.text-section{
+    height: 270px;
+    width: 40%;
+    text-align: center;
+    margin-top: 150px;
+   
+}
+.text-section h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.text-section p{
+    margin-bottom: 20px;
+}
+.quick-list{
+    color: #6d6d6d;
+}
+.of-our{
+    color: #000000;
+}
+.features{
+    color: #d67a02;
+}
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.experience-part{
+    padding-left: 20px;
+}
+.first-header{
+    padding-left: 10px;
+    border-left: 5px solid #cae722;
+}
+.experience-header{
+    margin-bottom: 10px;
+}
+.experience-discription{
+    margin-bottom: 10px;
+}
+.experience-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+}
+.experience-img img{
+    width: 100%;
+    height: 100%;
+}
+.second-btn{
+    background-color: #d67a02;
+    color: #FFFF;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.third-container{
+    width: 100%;
+    height: 300px;
+    margin: 40px 0px;
+}
+.some-facts{
+    width: 550px;
+    height: 100px;
+    margin-top: 20px;
+    float: left;
+}
+.some-facts h2{
+    margin-bottom: 10px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    margin-top: 50px;
+
+}
+.projects img{
+    width: 30px;
+}
+.project-item{
+    text-align: center;
+    width: 120px;
+    height: 100px;
+    font-size: 12px;
+    padding: 15px;
+    line-height: 25px;
+    border: 1px solid #d67a02;
+    border-radius: 5px;
+}
+.footer-section{
+    width: 100%;
+    height: 150px;
+}
+.footer-contain{
+    width: 400px;
+    height: 75px;
+    text-align: center;
+    line-height: 15px;
+    float: center;
+}
+.footer-contain h2{
+    margin-bottom: 15px;
+}
+.footer-contain p{
+    font-size: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 75px;
+    padding-left: 70px;
+}
+.logo img{
+    width: 140px;
+    height: 30px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
+/* Responsive Style From Here */
+@media screen and (max-width: 576px) {
+    *{
+        width: 100%;
+    }
+    .header-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .banner p{
+        width: 90%;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 90%;
+        height: 1700px;
+    }
+    .img-container{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container img{
+        width: 90%;
+        height: 300px;
+    }
+    .text-section{
+        height: 500px;
+        width: 70%;
+        text-align: center;
+        margin-top: 150px;  
+    }
+    .second-container{
+        width: 90%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .experience{
+        width: 90%;
+        height: 600px;
+    }
+    .experience-img{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 600px;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .some-facts{
+        width: 90%;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 200px;
+        margin-top: 20px;
+    
+    }
+    .projects img{
+        width: 30px;
+    }
+    .projects{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .projects img{
+        width: 20px;
+    }
+    .project-item{
+        width: 50px;
+        height: 90px;
+        font-size: 10px;
+        padding: 12px;
+        line-height: 15px;
+    }
+    .footer-section{
+        width: 90%;
+        height: 150px;
+    }
+    .footer-contain{
+        width: 80%;
+        height: 75px;
+        padding: 10px;
+        text-align: center;
+        line-height: 12px;
+        float: center;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        height: 120px;
+
+    }
+    .logo img{
+        width: 100px;
+        height: 25px;
+    }
+}
